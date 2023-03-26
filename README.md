@@ -37,4 +37,4 @@ This will run the script every 30 minutes and update the DNS record if the publi
 The script logs the date, time and IP address to a log file located at "/var/log/godaddy.log". You can view the log file to see the update history.  
   
 ## License:  
-This project is licensed under the MIT License - see the LICENSE file for details.  
+This project is licensed under the MIT License .
