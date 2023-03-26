@@ -2,7 +2,7 @@
 This is a simple Bash script to update a Godaddy domain's DNS record with the current public IP address of the host it is executed on.  
 
 ## Prerequisites:  
-Access to a Godaddy account with a domain  
+- Access to a Godaddy account with a domain  
 - Bash shell  
 - curl  
 - A Linux system with cron to schedule the script execution  
