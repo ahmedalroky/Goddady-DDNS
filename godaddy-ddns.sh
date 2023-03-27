@@ -1,14 +1,14 @@
 #!/bin/bash
 
 
-$domain = "" # example.com
-$api = "" #api:secret
-$host = "" # subdomain
+domain="" # example.com
+api="" #api:secret
+host="" # subdomain
 
 
 result=$(curl -i -s -k -X $'GET' \
     -H $'Authorization: sso-key '$api'' -H $'Content-Type: application/json' -H $'User-Agent: PostmanRuntime/7.29.0' -H $'Accept: */*' -H $'Host: api.godaddy.com' -H $'Accept-Encoding: gzip, deflate' -H $'Connection: close'  \
-    $'https://api.godaddy.com/v1/domains/'$domain'/records/A/'$host'')
+    $'https://api.godaddy.com/v1/domains/'$domain'/records/A/'$host)
 
 #echo $result;
 
